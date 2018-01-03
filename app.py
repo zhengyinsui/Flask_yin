@@ -20,9 +20,9 @@ app = Flask(__name__)
 #print(json_object)
 @app.route('/main')
 def main():
-  return redirect('/index')
+  return redirect('/')
 
-@app.route('/index', methods=['GET'])
+@app.route('/', methods=['GET'])
 def index():
   return render_template('index.html')
 
