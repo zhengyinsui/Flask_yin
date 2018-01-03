@@ -10,7 +10,7 @@ from bokeh.embed import components
 
 #app_lulu.vars={}
 app = Flask(__name__)
-
+#com
 
 #print (test)
 
